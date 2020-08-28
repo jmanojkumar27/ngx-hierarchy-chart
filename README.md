@@ -4,6 +4,8 @@ The `ngx-hierarchy-chart` creates hierarchical chart.
 
 ![ngx-hierarchy-chart](https://i.ibb.co/qDJyh9T/sample-chart.jpg)
 
+[Demo](https://stackblitz.com/edit/angular-h8fgzr?devtoolsheight=33&file=src/app/app.component.html)
+
 ## Table of Contents
 
   * [Installation](#installation)
@@ -26,7 +28,7 @@ $ npm install ngx-hierarchy-chart
 |Property|Type|Default|Description
 |---|---|---|---|
 |name|`string`|`xxx`| Name of the node
-|children|`object {}`|`xxx`| children of the nodes
+|children|`object {}`|`xxx`| Children of the nodes
 |height|`number`| `Default - 700` |Height of the chart
 |width|`number`| `Default - 500` |Width of the chart
 |data|`Node {}`| |The array of child nodes
