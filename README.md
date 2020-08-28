@@ -4,15 +4,16 @@ The `ngx-hierarchy-chart` creates hierarchical chart.
 
 ![ngx-hierarchy-chart](https://i.ibb.co/qDJyh9T/sample-chart.jpg)
 
-[Demo](https://stackblitz.com/edit/angular-h8fgzr?devtoolsheight=33&file=src/app/app.component.html)
+
 
 ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
   * [Inputs](#inputs)
+  * [Demo](https://stackblitz.com/edit/angular-h8fgzr?devtoolsheight=33&file=src/app/app.component.html)
   * [Steps to create a angular library](#steps)
-  * [NPM-Steps](#Publishing)
+  * [NPM-Steps](#Publishing)  
 
 ## Installation
 
