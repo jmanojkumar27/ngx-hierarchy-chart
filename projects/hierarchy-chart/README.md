@@ -2,6 +2,8 @@
 
 The `ngx-hierarchy-chart` creates hierarchical chart.
 
+![ngx-hierarchy-chart](https://github.com/jmanojkumar27/ngx-hierarchy-chart/tree/master/src/assets/sample-chart.png)
+
 ## Table of Contents
 
   * [Installation](#installation)

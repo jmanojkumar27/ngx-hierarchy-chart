@@ -1,6 +1,6 @@
 {
     "name": "ngx-hierarchy-chart",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "peerDependencies": {
         "@angular/common": "^9.1.12",
         "@angular/core": "^9.1.12"
@@ -22,5 +22,18 @@
         "d3 hierarchy chart",
         "d3 angularcharts",
         "angular hierarchy charts"
-    ]
+    ],
+    "author": "Manoj Kumar J",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmanojkumar27/ngx-hierarchy-chart.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jmanojkumar27/ngx-hierarchy-chart/issues/issues"
+    },
+    "homepage": "https://github.com/jmanojkumar27/ngx-hierarchy-chart"
 }
