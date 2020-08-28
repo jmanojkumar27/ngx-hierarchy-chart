@@ -7,6 +7,8 @@ The `ngx-hierarchy-chart` creates hierarchical chart.
   * [Installation](#installation)
   * [Usage](#usage)
   * [Inputs](#inputs)
+  * [Steps to create a angular library](#steps)
+  * [NPM-Steps](#Publishing)
 
 ## Installation
 
@@ -22,10 +24,10 @@ $ npm install ngx-hierarchy-chart
 |Property|Type|Default|Description
 |---|---|---|---|
 |name|`string`|`xxx`| Name of the node
-|children|`object{}`|`xxx`| children of the nodes
+|children|`object {}`|`xxx`| children of the nodes
 |height|`number`| `Default -` `700` |Height of the chart
-|width|`number`| `Default - ``500` |Width of the chart
-|data|`Node[]`| |The array of child nodes
+|width|`number`| `Default -` `500` |Width of the chart
+|data|`Node {}`| |The array of child nodes
 
 
 ### `app.module.ts`
@@ -54,8 +56,10 @@ export class AppModule { }
 
 ### `app.component.html`
 ```html
-<ngx-hierarchy-chart [chartdata]="nodes"></ngx-hierarchy-chart>
+<ngx-hierarchy-chart [chartdata]="nodes"> </ngx-hierarchy-chart>
 ```
+
+### `style.scss`
 ```css
 .node text {
     font: 12px sans-serif;
@@ -73,7 +77,6 @@ export class AppModule { }
 
 .node circle {
     fill: #1784a2;
-    // stroke: #2224288a;
     stroke-width: 2px;
 }
 ```
@@ -147,7 +150,7 @@ height:600};
 |---|---|---|
 |`chartdata`|`Node` object|The `Node` object that contains node info mentioned above
 
-# HierarchyChart
+## Steps
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
 
@@ -171,3 +174,43 @@ Run `ng test ngx-hierarchy-chart` to execute the unit tests via [Karma](https://
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Publishing library to public npm repository:
+To publish the library to the public npm repository, you have to sign up for an account with npmjs.
+You can create your npmjs account here:
+https://www.npmjs.com/signup
+
+Now run the below command from the terminal and provide your npm credentials when asked:
+`npm adduser`
+
+(Note: This is a one-time operation only and you can skip this step if you have already logged in.)
+Anytime, you can also verify that you are logged in or not by using the following command:
+`npm whoami`
+
+Once logged in, you need to navigate up to your library directory from the dist directory. In short,
+
+Finally, we are ready to publish our library. Remember that, we already used npm pack so we can just publish our .tgz file (Otherwise you need to run the npm pack command first)
+`npm publish - -access public`
+
+Then we can see the published package on npm at this URL:
+`https://www.npmjs.com/package/< library- name>`
+
+Now that we have created and published this library we can use it anywhere in any project by running the following command:
+`npm install — save <library-name>@0.0.1`
+(here 0.0.1 is the version number of a library, which is necessary)
+
+Few Adjustments:
+As a good programming practice, we should provide some unique name for the library.
+
+Because our npm’s public registry will sure have many packages with these similar names. So you can follow the approach to add your npm’s username with your library name so that it can be uniquely identified and also to avoid the errors while you publish it.
+
+For this, you can change the name parameter of the package.json file of your library project. (from projects folder)
+
+Here this name is having `npm-username/library-name` value.
+And now you can follow the publishing steps described above.
+I hope you find this article useful. Thanks for reading!
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
