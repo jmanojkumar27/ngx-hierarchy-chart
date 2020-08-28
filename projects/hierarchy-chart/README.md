@@ -145,8 +145,9 @@ export class AppComponent {
       }
     ]
   },
-width:800,
-height:600};
+  width:800,
+  height:600
+  };
 }
 ```
 ## Inputs
