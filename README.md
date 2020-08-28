@@ -27,8 +27,8 @@ $ npm install ngx-hierarchy-chart
 |---|---|---|---|
 |name|`string`|`xxx`| Name of the node
 |children|`object {}`|`xxx`| children of the nodes
-|height|`number`| `Default -` `700` |Height of the chart
-|width|`number`| `Default -` `500` |Width of the chart
+|height|`number`| `Default - 700` |Height of the chart
+|width|`number`| `Default - 500` |Width of the chart
 |data|`Node {}`| |The array of child nodes
 
 
