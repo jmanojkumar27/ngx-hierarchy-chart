@@ -1,0 +1,26 @@
+{
+    "name": "ngx-hierarchy-chart",
+    "version": "0.0.16",
+    "peerDependencies": {
+        "@angular/common": "^9.1.12",
+        "@angular/core": "^9.1.12"
+    },
+    "dependencies": {
+        "tslib": "^1.10.0"
+    },
+    "keywords": [
+        "hierarchy",
+        "ngx-hierarchy-chart",
+        "ngx hierarchy chart",
+        "hierarchy chart",
+        "hierarchical",
+        "chart",
+        "angular",
+        "ng",
+        "d3",
+        "d3 chart",
+        "d3 hierarchy chart",
+        "d3 angularcharts",
+        "angular hierarchy charts"
+    ]
+}

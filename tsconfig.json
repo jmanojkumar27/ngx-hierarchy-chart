@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "hierarchy-chart": [
+        "dist/hierarchy-chart/hierarchy-chart",
+        "dist/hierarchy-chart"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

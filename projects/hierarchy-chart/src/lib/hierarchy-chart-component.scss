@@ -1,0 +1,13 @@
+.node text {
+    font: 12px sans-serif;
+}
+
+.node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+    fill: none;
+    stroke: gray;
+    stroke-width: 2px;
+}

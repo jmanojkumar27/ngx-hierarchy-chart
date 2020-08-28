@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+    fill: none;
+    stroke: #9E9E9E;
+    stroke-width: 2px;
+}
+
+.node circle {
+    fill: #1784a2;
+    // stroke: #2224288a;
+    stroke-width: 2px;
+}
